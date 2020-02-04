@@ -14,7 +14,8 @@ F_DIR=${BASE}/${VAR_ID}/flanking_${WINDOW_SIZE}
 CHR=`cut -f 1 ${F_DIR}/region.*.bed`
 REGION=`awk '{print $1":"$2"-"$3}' ${F_DIR}/region.*.bed`
 
-SNP_VCF=/gscmnt/gc2802/halllab/lganel/FinMetSeq5k/ab_sample_filtered_vcf/toshare/chr${CHR}.vcf.gz
+
+#SNP_VCF=
 
 tabix -h ${SNP_VCF} ${REGION} | bgzip -c > ${F_DIR}/snp.vcf.gz 
 tabix -p vcf ${F_DIR}/snp.vcf.gz
