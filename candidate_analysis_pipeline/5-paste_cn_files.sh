@@ -7,7 +7,7 @@ echo $VAR_ID $WINDOW_SIZE
 #VAR_ID="44368"
 #WINDOW_SIZE=100
 
-ROOT=/gscmnt/gc2802/halllab/lchen/finmetseq_final_20190604/
+# ROOT=
 BASE=${ROOT}/3-Candidate_analysis/data/var_plots
 CAND_DATA_DIR=${BASE}/${VAR_ID}/data
 
