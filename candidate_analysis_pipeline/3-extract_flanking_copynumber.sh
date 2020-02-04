@@ -13,7 +13,7 @@ echo $VAR_ID $WINDOW_NUMBER
 
 #VAR_ID="CNV_chr16_69982813_69983880"
 
-ROOT=/gscmnt/gc2802/halllab/lchen/finmetseq_final_20190604/
+# ROOT=
 BASE=${ROOT}/3-Candidate_analysis/data/var_plots
 CAND_DATA_DIR=${BASE}/${VAR_DIR}/data
 
