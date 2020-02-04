@@ -4,7 +4,7 @@ TRAIT=$2
 echo $VAR_ID
 echo $TRAIT
 
-ROOT=/gscmnt/gc2802/halllab/lchen/finmetseq_final_20190604/
+#ROOT=
 
 INVCF=${ROOT}/2-Association_test/data/
 PHENO=${INVCF}/general/qt_finnseq_20190620.renormalized.wgs.5k_ids.power80.ped
