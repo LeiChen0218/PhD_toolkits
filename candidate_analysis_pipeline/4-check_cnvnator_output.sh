@@ -1,7 +1,7 @@
 #!/bin/sh
 VAR=$1
 WINDOW_SIZE=$2
-ROOT=/gscmnt/gc2802/halllab/lchen/finmetseq_final_20190604/
+# ROOT=
 BASE=${ROOT}/3-Candidate_analysis/data/var_plots
 sv_dir=${ROOT}/general_info/finn.sample.all.table
 
