@@ -1,23 +1,21 @@
 #!/usr/bin/env python
 
 import argparse, sys
-#import pandas as pd 
-# import math, time, re
 from argparse import RawTextHelpFormatter
 
 __author__ = "Lei Chen (leichen@wustl.edu)"
 __version__ = "$Revision: 0.0.1 $"
-__date__ = "$Date: 2018-05-14e 14:53 $"
+__date__ = "$Date: 2020-02-04 $"
 
 # --------------------------------------
 # define functions
 
 def get_args():
     parser = argparse.ArgumentParser(formatter_class=RawTextHelpFormatter, description="\
-var_gt_corr.py\n\
+get_alignment_table.py\n\
 author: " + __author__ + "\n\
 version: " + __version__ + "\n\
-description: correlate variants and genotypes")
+description: convert alignment output to a table")
     parser.add_argument('-a', '--alignment', required=True, type=argparse.FileType('r'), default=None, help=' alignment output (pair format)')
     # parse the arguments
     args = parser.parse_args()
