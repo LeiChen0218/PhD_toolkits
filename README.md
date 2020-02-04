@@ -1,2 +1,2 @@
 # PhD_toolkits
-Some scripts customized for my research
+Scripts used for PhD thesis - FinMetSeq SV geno x cardiometabolic pheno project
