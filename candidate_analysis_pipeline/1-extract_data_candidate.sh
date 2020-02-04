@@ -10,7 +10,7 @@ echo $VAR_ID
 #VAR_ID="CNV_chr16_69982813_69983880"
 #TRAIT="Pyr_combined"
 
-ROOT=/gscmnt/gc2802/halllab/lchen/finmetseq_final_20190604/
+#ROOT= 
 
 INVCF=${ROOT}/2-Association_test/data/
 PHENO=${INVCF}/general/qt_finnseq_20190620.renormalized.wgs.5k_ids.power80.ped
