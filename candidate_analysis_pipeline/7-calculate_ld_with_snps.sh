@@ -6,7 +6,7 @@ echo $VAR_ID
 
 #exp to test the code
 
-ROOT=/gscmnt/gc2802/halllab/lchen/finmetseq_final_20190604/
+# ROOT=
 BASE=${ROOT}/3-Candidate_analysis/data/var_plots
 CAND_DATA_DIR=${BASE}/${VAR_ID}/data
 F_DIR=${BASE}/${VAR_ID}/flanking_${WINDOW_SIZE}
